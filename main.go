@@ -3,15 +3,16 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/esrrhs/go-engine/src/common"
-	"github.com/esrrhs/go-engine/src/conn"
-	"github.com/esrrhs/go-engine/src/loggo"
-	"github.com/esrrhs/go-engine/src/proxy"
 	"net/http"
 	_ "net/http/pprof"
 	"strconv"
 	"strings"
 	"time"
+
+	"spp/common"
+	"spp/conn"
+	"spp/loggo"
+	"spp/proxy"
 )
 
 type fromFlags []string
